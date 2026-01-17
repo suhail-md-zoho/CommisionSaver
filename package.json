@@ -1,0 +1,27 @@
+{
+  "name": "commission-saver",
+  "version": "1.0.0",
+  "description": "WhatsApp Booking Backend for Commission Saver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "booking",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
